@@ -5,7 +5,7 @@ var router = new Router();
 
 router.post("/dialog", (ctx, next) => {
  let fullthis = {
-    "fulfillmentText": "its cool man"
+    "fulfillmentText": "its cool man ye"
 };
   ctx.body = fullthis
 });
